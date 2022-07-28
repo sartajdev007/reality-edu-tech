@@ -53,13 +53,13 @@
         <!-- navbar section end -->
         <!-- carousel start -->
         <section>
-            <div id="carouselExampleDark" class="container mx-auto carousel carousel-dark slide"
+            <div id="carouselExampleDark" class="container mx-auto pt-3 carousel carousel-dark slide"
                 data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img class="img-fluid" src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption my-5 d-md-block text-white bg-dark p-2 active"
-                            style="--bs-bg-opacity: .7;">
+                        <div class="carousel-caption my-5
+                         d-md-block text-white bg-dark p-2 active" style="--bs-bg-opacity: .7;">
                             <h2>New Age for Digital Learning</h2>
                             <p>In This Age of Technological Advancement,Education is the most important factor that has
                                 to be made Digital</p>
@@ -110,18 +110,14 @@
                 will help you enrich
                 your knowledge and skills</p>
             <div class="mt-4 row row-cols-1 row-cols-md-2 g-4">
-                <div class="">
-                    <div class="card ">
-                        <div class="d-flex">
-                            <img src="images/course/course-1.png" class="img-fluid" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">UI/UX Design</h5>
-                                <p class="card-text">This course will help you become an expert in the field of
-                                    designing.Properly doing this course will result in your being successful</p>
-                                <span class="text-success fw-semibold">Price:$500</span>
-                            </div>
-
-
+                <div class="card ">
+                    <div class="d-flex">
+                        <img src="images/course/course-1.png" class="img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">UI/UX Design</h5>
+                            <p class="card-text">This course will help you become an expert in the field of
+                                designing.Properly doing this course will result in your being successful</p>
+                            <span class="text-success fw-semibold">Price:$500</span>
                         </div>
                     </div>
                 </div>
@@ -191,8 +187,77 @@
                     </div>
                 </div>
             </div>
+            <div class="pt-4 text-center">
+                <a class="btn btn-primary px-4 py-3 text-white" type="button" href="#">Discover More
+                    Courses</a>
+            </div>
         </section>
         <!-- courses section end -->
+        <!-- register section start -->
+        <section class="pt-5">
+            <div class="bg-info p-5 w-100">
+                <div class="row d-flex align-items-center row-cols-sm-1 row-cols-md-1 row-cols-lg-2 p-5">
+                    <div class="col text-white">
+                        <h2>Are You Ready To Join Us?</h2>
+                        <p class="pt-3">Join us to get access to unlimited skill development courses and training
+                            sessions.We have a
+                            reasonable pricing policy that is affordable for anyone.</p>
+                    </div>
+                    <div class="col d-flex justify-content-end">
+                        <!-- Button trigger modal -->
+                        <a type="button" class="btn btn-light text-primary fw-bold px-4 py-2" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Register Now
+                        </a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Registration Form</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row g-3">
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="First name"
+                                                    aria-label="First name">
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="Last name"
+                                                    aria-label="Last name">
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2 mb-3">
+                                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="inputEmail3">
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                            <div class="col-sm-10">
+                                                <input type="password" class="form-control" id="inputPassword3">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- register section end -->
     </main>
 
     <!-- script -->
